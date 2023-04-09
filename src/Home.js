@@ -1,3 +1,4 @@
+import Cards from "./components/Cards";
 import Hero from "./components/Hero";
 import NavScrollExample from "./components/Navbar";
 
@@ -6,6 +7,7 @@ const Home = () => {
     <div className="home">
       <NavScrollExample />
       <Hero />
+      <Cards />
     </div>
   );
 };

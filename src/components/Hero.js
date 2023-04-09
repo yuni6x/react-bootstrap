@@ -3,7 +3,7 @@ import heroImg from "../assets/ebook-cover.png";
 
 export default function Hero() {
   return (
-    <section id="hero" className="my-5">
+    <section id="hero" className="mt-5">
       <div className="container">
         <div className="row g-4 justify-content-center align-items-center">
           <div className="col-md-5 text-center text-md-start">
