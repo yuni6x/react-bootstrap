@@ -1,9 +1,11 @@
-import Navbar from "./Navbar";
+import Hero from "./components/Hero";
+import NavScrollExample from "./components/Navbar";
 
 const Home = () => {
   return (
     <div className="home">
-      <Navbar />
+      <NavScrollExample />
+      <Hero />
     </div>
   );
 };
