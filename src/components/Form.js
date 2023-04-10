@@ -18,7 +18,9 @@ export default function FormOrder() {
     <section id="order" className="bg-light py-5">
       <div className="text-center">
         <h2>Contact Us</h2>
-        <p className="lead text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, quaerat.</p>
+        <p className="lead text-muted">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, quaerat.
+        </p>
       </div>
       <pre>{JSON.stringify(userInfo, undefined, 3)}</pre>
       <div className="row justify-content-center">
