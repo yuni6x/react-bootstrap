@@ -31,6 +31,7 @@ export default function Cards() {
           <div className="col-9 col-lg-4">
             <Card className="border-primary border-2 py-3">
               <Card.Body>
+              <Card.Header className="text-primary border-0">Most Popular</Card.Header>
                 <Card.Title as="h4">Starter Edition</Card.Title>
                 <Card.Subtitle className="lead">eBook download only</Card.Subtitle>
                 <Card.Text className="display-5 my-4 text-primary fw-bold">$30.99</Card.Text>

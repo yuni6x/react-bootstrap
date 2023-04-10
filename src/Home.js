@@ -1,13 +1,15 @@
+import Topics from "./components/Accordion";
 import Cards from "./components/Cards";
 import Hero from "./components/Hero";
-import NavScrollExample from "./components/Navbar";
+import NavbarSection from "./components/Navbar";
 
 const Home = () => {
   return (
     <div className="home">
-      <NavScrollExample />
+      <NavbarSection />
       <Hero />
       <Cards />
+      <Topics />
     </div>
   );
 };

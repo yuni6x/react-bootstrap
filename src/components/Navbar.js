@@ -2,7 +2,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 
-function NavScrollExample() {
+function NavbarSection() {
   return (
     <Navbar bg="light" expand="lg">
       <Container>
@@ -21,4 +21,4 @@ function NavScrollExample() {
   );
 }
 
-export default NavScrollExample;
+export default NavbarSection;
